@@ -17,36 +17,36 @@ const questions = [
 {
     type:"input",
     name:"installation",
-    message:'Please describe your application.'
+    message:'Please describe your application installation instructions.'
 },{
     type:"input",
     name:"usage",
-    message:'Please describe your application.'
+    message:'Please describe your usage information.'
 },{
     type:"input",
     name:"contribution",
-    message:'Please describe your application.'
+    message:'Please describe the guidlines for contribution.'
 },
 {
     type:"list",
     name:"license",
-    message:'Please describe your application.',
+    message:'Please choose a license for your application.',
     choices:['ISC','MIT','GNU','None']
 },
 {
     type:"input",
     name:"test",
-    message:'Please describe your application.'
+    message:'Please describe the instructions to test your application.'
 },
 {
     type:"input",
     name:"email",
-    message:'Please describe your application.'
+    message:'Please enter your email contact information.'
 },
 {
     type:"input",
     name:"github",
-    message:'Please describe your application.'
+    message:'Please enter your github username.'
 },
 ];
 
@@ -56,7 +56,7 @@ const questions = [
 // TODO: Create a function to initialize app
 function init() {
 inquirer.prompt(questions).then(data => {
-    fs.writeFileSync('ReadMe.2md', generateMarkdown(data))
+    fs.writeFileSync('ReadMe.md', generateMarkdown(data))
 })
 
 }
