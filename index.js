@@ -14,7 +14,39 @@ const questions = [
     name:"description",
     message:'Please describe your application.'
 },
-
+{
+    type:"input",
+    name:"installation",
+    message:'Please describe your application.'
+},{
+    type:"input",
+    name:"usage",
+    message:'Please describe your application.'
+},{
+    type:"input",
+    name:"contribution",
+    message:'Please describe your application.'
+},
+{
+    type:"input",
+    name:"license",
+    message:'Please describe your application.'
+},
+{
+    type:"input",
+    name:"test",
+    message:'Please describe your application.'
+},
+{
+    type:"input",
+    name:"email",
+    message:'Please describe your application.'
+},
+{
+    type:"input",
+    name:"github",
+    message:'Please describe your application.'
+},
 ];
 
 // TODO: Create a function to write README file
