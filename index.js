@@ -28,9 +28,10 @@ const questions = [
     message:'Please describe your application.'
 },
 {
-    type:"input",
+    type:"list",
     name:"license",
-    message:'Please describe your application.'
+    message:'Please describe your application.',
+    choices:['ISC','MIT','GNU','None']
 },
 {
     type:"input",
@@ -55,7 +56,7 @@ const questions = [
 // TODO: Create a function to initialize app
 function init() {
 inquirer.prompt(questions).then(data => {
-    fs.writeFileSync('ReadMe.md', generateMarkdown(data))
+    fs.writeFileSync('ReadMe.2md', generateMarkdown(data))
 })
 
 }
