@@ -28,7 +28,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
 # Table of Contents
-1. [Desctription](#description)
+1. [Description](#description)
 2. [Installation Instructions](#installation)
 3. [Usage Information](#usage)
 4. [Contribution Guidlines](#contribution)
