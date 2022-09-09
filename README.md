@@ -1,11 +1,12 @@
 # ReadMe-Generator
 
 ## Description
-    This application prompts and generates professional README markdown files. I built this project to test my knowledge of Node.js
-    as well as my ability to incorporate inquirer.js.
+    This application prompts and generates professional README markdown files. 
+    I built this project to test my knowledge of Node.js as well as my ability to incorporate inquirer.js.
     
-    The problem this application helps alleviate is the difficult task of creating a professional readme as a new up and coming 
-    developer attempting to submit their portfolios for job applications. 
+    The problem this application helps alleviate is the difficult task of creating 
+    a professional readme as a new up and coming developer attempting to submit their 
+    portfolios for job applications. 
     I learned a lot more about utilizing inquirer in this project. 
   
 ## Installation Instructions
