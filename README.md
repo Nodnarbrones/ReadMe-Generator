@@ -9,8 +9,8 @@
     I learned a lot more about utilizing inquirer in this project. 
   
 ## Installation Instructions
-    The only thing that needs to be installed for this application is going to be NodeJS. Included here will be a link to
-    instructions on how to properly install Node.
+    The only thing that needs to be installed for this application is going to be NodeJS. Included 
+    here will be a link toinstructions on how to properly install Node.
     https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs
     
 ## Usage
@@ -18,6 +18,6 @@
     https://youtu.be/sDBHy55hxtI
     
 ## Contribution Guidlines
-    Seeing that this assignment was given with starter code, the only contributors to the project would of course be the UCI 
-    coding bootcamp team that provided said starter code. 
+    Seeing that this assignment was given with starter code, the only contributors to the project would 
+    of course be the UCI coding bootcamp team that provided said starter code. 
    
