@@ -14,8 +14,18 @@
     https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs
     
 ## Usage
-    Below is a video link to a demo of the ReadMe Generator. 
-    https://youtu.be/sDBHy55hxtI
+    Below is a link to a video demo of the ReadMe Generator application running.  
+
+## <https://youtu.be/sDBHy55hxtI>
+
+![Terminal Screen Capture](./Assets/terminalSC.png)
+
+
+![ReadMe Screen Capture](./Assets/ReadMeSC.png)
+
+
+
+
     
 ## Contribution Guidlines
     Seeing that this assignment was given with starter code, the only contributors to the project would 
